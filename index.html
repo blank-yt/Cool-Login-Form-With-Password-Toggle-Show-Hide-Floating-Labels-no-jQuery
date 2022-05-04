@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Login</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="login">
+      <h1>Login form</h1>
+
+      <form action="#" method="post">
+        <div class="group">
+          <i class="fas fa-envelope"></i>
+          <label for="email">
+            <input type="text" class="inputText" name="email" required />
+            <span class="floating-label">Enter your e-mail address</span>
+          </label>
+        </div>
+
+        <div class="group">
+          <i class="fas fa-lock"></i>
+          <label for="password">
+            <input type="password" class="inputText" name="password" id="passwordInput" required />
+            <span class="floating-label">Enter your password</span>
+          </label>
+        </div>
+
+        <input type="checkbox" id="check" name="remember" value="remember" />
+        <label for="check" style="float:left">  Remember me</label>
+        <a class="forgot" href="#">Forgot password?</a>
+
+        <input type="submit" class="submit" value="Login" />
+      </form>
+
+      <footer>
+        Don't have an account?<br /><a href="#">Sign up now</a>
+      </footer>
+    </div>
+  </body>
+</html>
